@@ -1,0 +1,19 @@
+.graySquare {
+  height: 48px;
+  width: 48px;
+  background-color: #f3f4ff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graySquare.small {
+  height: 44px;
+  width: 44px;
+  background-color: #edeef2;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

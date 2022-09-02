@@ -1,0 +1,52 @@
+.dealsContainer {
+  padding: 0 15px;
+}
+
+.dealsContainer:last-child {
+  padding-bottom: 20rem;
+}
+
+.dealsCard {
+  margin-top: 30px;
+  background-color: #f3f4ff;
+  height: 330px;
+  width: 100%;
+  padding: 13px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.dealsCard2 {
+  composes: dealsCard;
+  background-color: #fff3ed;
+}
+
+.dealsCard h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #4e60ff;
+  margin: 0;
+}
+
+.dealsCard2 h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #fd6d22;
+  margin: 0;
+}
+.dealsName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dealsName h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.dealsName p {
+  margin: 0.5rem;
+  color: #83859c;
+}

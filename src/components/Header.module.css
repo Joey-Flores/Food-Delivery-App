@@ -1,0 +1,15 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 15px;
+}
+
+.excludeLogo {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

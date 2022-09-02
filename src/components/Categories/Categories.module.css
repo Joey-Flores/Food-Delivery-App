@@ -1,0 +1,26 @@
+.categoriesContainer {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  height: 175px;
+  gap: 15px;
+  justify-items: center;
+}
+
+.categoriesCard {
+  background-color: #fff;
+  height: 80px;
+  width: 100px;
+  border-radius: 16px;
+  border: 1px solid #edeef2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.categoriesCard p {
+  margin: 0.4rem;
+}

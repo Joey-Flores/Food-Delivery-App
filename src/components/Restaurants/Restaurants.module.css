@@ -1,0 +1,10 @@
+.restaurantTitle {
+  padding-bottom: 16px;
+}
+
+.restaurantCard {
+  border-radius: 16px;
+  height: 276px;
+  width: 100%;
+  background-color: red;
+}

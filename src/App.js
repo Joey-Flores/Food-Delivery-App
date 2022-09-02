@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Categories from "./components/Categories/Categories";
+import Deals from "./components/Deals/Deals";
+import Header from "./components/Header";
+import Restaurants from "./components/Restaurants/Restaurants";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <hr
+        style={{
+          height: "1px",
+          backgroundColor: "#EDEEF2",
+          border: "none",
+          margin: "0",
+        }}
+      ></hr>
+      <Deals />
+      <Categories />
+      <Restaurants />
     </div>
   );
 }
