@@ -1,14 +1,8 @@
-import GraySquare from "../ResuedComponents/GraySquare/GraySquare";
-
-function Cart() {
+function Cart(props) {
   return (
-    <div>
-      <GraySquare>
-        <span style={{ color: "#4E60FF" }}>
-          <i class="fa-solid fa-bag-shopping"></i>
-        </span>
-      </GraySquare>
-    </div>
+    <span style={{ color: props.color }}>
+      <i class="fa-solid fa-bag-shopping"></i>
+    </span>
   );
 }
 

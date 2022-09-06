@@ -5,13 +5,16 @@ import Divider from "./Header/Divider";
 
 import styles from "./Header.module.css";
 import Menu from "./Header/Menu";
+import GraySquare from "./ResuedComponents/GraySquare/GraySquare";
 
 function Header() {
   return (
     <nav className={styles.navContainer}>
       <Logo />
       <div className={styles.excludeLogo}>
-        <Cart />
+        <GraySquare>
+          <Cart color={"#C7C8D2"} />
+        </GraySquare>
         <ProfileButton />
         <Divider />
         <Menu />

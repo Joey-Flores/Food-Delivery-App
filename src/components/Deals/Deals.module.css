@@ -11,14 +11,21 @@
   background-color: #f3f4ff;
   height: 330px;
   width: 100%;
-  padding: 13px;
+  padding: 15px;
   box-sizing: border-box;
   border-radius: 15px;
+  background-image: url("../../images/pngfind.com-cupcake-png-583484.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 110px;
 }
 
 .dealsCard2 {
   composes: dealsCard;
   background-color: #fff3ed;
+  background-image: url("../../images/pngfind.com-hamburger-png-500613.png");
+  background-size: 300px;
 }
 
 .dealsCard h1 {
