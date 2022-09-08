@@ -1,5 +1,5 @@
-import GraySquare from "../ResuedComponents/GraySquare/GraySquare";
-import styles from "../ResuedComponents/GraySquare/GraySquare.module.css";
+import GraySquare from "../../ResuedComponents/GraySquare/GraySquare";
+import styles from "../../ResuedComponents/GraySquare/GraySquare.module.css";
 
 function Menu() {
   return (

@@ -1,5 +1,5 @@
 import Cart from "../Header/Cart";
-import Wrapper from "../ResuedComponents/Wrapper/Wrapper";
+import Wrapper from "../../ResuedComponents/Wrapper/Wrapper";
 import styles from "./Restaurants.module.css";
 
 let imgs = [

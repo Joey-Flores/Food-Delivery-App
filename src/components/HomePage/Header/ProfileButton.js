@@ -1,4 +1,4 @@
-import GraySquare from "../ResuedComponents/GraySquare/GraySquare";
+import GraySquare from "../../ResuedComponents/GraySquare/GraySquare";
 
 function ProfileButton() {
   return (

@@ -1,10 +1,10 @@
-import Cart from "./Header/Cart";
+import Cart from "./HomePage/Header/Cart";
 import Logo from "./ResuedComponents/Logo/Logo";
-import ProfileButton from "./Header/ProfileButton";
-import Divider from "./Header/Divider";
+import ProfileButton from "./HomePage/Header/ProfileButton";
+import Divider from "./HomePage/Header/Divider";
 
 import styles from "./Header.module.css";
-import Menu from "./Header/Menu";
+import Menu from "./HomePage/Header/Menu";
 import GraySquare from "./ResuedComponents/GraySquare/GraySquare";
 
 function Header() {

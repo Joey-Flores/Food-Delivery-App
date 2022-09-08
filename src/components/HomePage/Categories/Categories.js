@@ -1,4 +1,4 @@
-import Wrapper from "../ResuedComponents/Wrapper/Wrapper";
+import Wrapper from "../../ResuedComponents/Wrapper/Wrapper";
 import styles from "./Categories.module.css";
 
 let categoryOptions = [

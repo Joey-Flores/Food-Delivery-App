@@ -1,13 +1,15 @@
 import "./App.css";
-import Categories from "./components/Categories/Categories";
-import Deals from "./components/Deals/Deals";
+import Categories from "./components/HomePage/Categories/Categories";
+import Deals from "./components/HomePage/Deals/Deals";
 import Header from "./components/Header";
-import Restaurants from "./components/Restaurants/Restaurants";
+import Restaurants from "./components/HomePage/Restaurants/Restaurants";
+
+import LoginPage from "./components/LoginPage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header />
       <hr
         style={{
           height: "1px",
@@ -18,7 +20,8 @@ function App() {
       ></hr>
       <Deals />
       <Categories />
-      <Restaurants />
+      <Restaurants /> */}
+      <LoginPage />
     </div>
   );
 }

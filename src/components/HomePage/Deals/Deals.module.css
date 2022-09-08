@@ -14,7 +14,7 @@
   padding: 15px;
   box-sizing: border-box;
   border-radius: 15px;
-  background-image: url("../../images/pngfind.com-cupcake-png-583484.png");
+  background-image: url("../../../images/pngfind.com-cupcake-png-583484.png");
   background-size: 150px;
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -24,7 +24,7 @@
 .dealsCard2 {
   composes: dealsCard;
   background-color: #fff3ed;
-  background-image: url("../../images/pngfind.com-hamburger-png-500613.png");
+  background-image: url("../../../images/pngfind.com-hamburger-png-500613.png");
   background-size: 300px;
 }
 

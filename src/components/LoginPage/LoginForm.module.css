@@ -1,0 +1,100 @@
+.loginFormContainer {
+  padding-top: 60px;
+}
+
+.loginFormContainer h1 {
+  font-size: 60px;
+}
+
+.loginFormContainer p {
+  font-size: 14px;
+  color: #545563;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.loginForm label {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.loginForm input[type="email"],
+.loginForm input[type="password"] {
+  border: 1px solid #c7c8d2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 28px;
+}
+
+.loginForm input[type="checkbox"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  align-self: flex-start;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  outline: 2px solid #c7c8d2;
+  border-radius: 4px;
+}
+
+.loginForm input[type="checkbox"]:checked {
+  background-color: #4e60ff;
+  outline-color: #4e60ff;
+}
+
+.loginForm span {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+.loginForm::placeholder {
+  color: #83859c;
+}
+
+.loginFormCheckbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.loginForm button {
+  background-color: #4e60ff;
+  border: 1px solid #4e60ff;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.loginFormContainer a {
+  color: #4e60ff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.forgotPassword {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.signUp {
+  text-align: center;
+  font-size: 14px;
+}
