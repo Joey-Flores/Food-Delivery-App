@@ -1,0 +1,22 @@
+.formChangeButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formChangeButtons button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.formChangeButtons .discardButton {
+  background-color: #fff;
+  color: #83859c;
+  border: 1px #83859c solid;
+}
+
+.formChangeButtons .saveButton {
+  background-color: #4e60ff;
+  color: #fff;
+  border: 1px #4e60ff solid;
+}

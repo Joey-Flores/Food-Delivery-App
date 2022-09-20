@@ -1,0 +1,27 @@
+.settingsContainer {
+  background-color: #fff;
+  height: 380px;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+.settingsContainer h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.settingsButtonsContainer {
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.accountContainer {
+  padding: 16px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #edeef2;
+  border-radius: 16px;
+}

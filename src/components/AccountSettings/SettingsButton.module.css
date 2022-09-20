@@ -1,0 +1,8 @@
+.buttonContainer {
+  padding: 16px;
+  height: 72px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #edeef2;
+  border-radius: 16px;
+}

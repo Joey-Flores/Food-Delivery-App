@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Restaurants from "./components/HomePage/Restaurants/Restaurants";
 
 import LoginPage from "./components/LoginPage";
+import AccountSettings from "./components/AccountSettings";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <Deals />
       <Categories />
       <Restaurants /> */}
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <AccountSettings />
     </div>
   );
 }

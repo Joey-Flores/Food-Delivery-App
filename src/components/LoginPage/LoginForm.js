@@ -1,3 +1,4 @@
+import Checkbox from "../ResuedComponents/Checkbox/Checkbox";
 import styles from "./LoginForm.module.css";
 
 function LoginForm() {
@@ -22,8 +23,7 @@ function LoginForm() {
           placeholder="min. 8 characters"
         ></input>
         <div className={styles.loginFormCheckbox}>
-          <input type="checkbox"></input>
-          <span className={styles.checkMark}></span>
+          <Checkbox />
           <p>Keep me logged in</p>
         </div>
         <button>Login</button>
