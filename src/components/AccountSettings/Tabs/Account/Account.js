@@ -1,7 +1,7 @@
 import styles from "./Account.module.css";
-import i from "../../../images/pngfind.com-ninja-png-536693.png";
-import Checkbox from "../../ResuedComponents/Checkbox/Checkbox";
-import FormChangeButtons from "../../ResuedComponents/FormChangeButtons/FormChangeButtons";
+import i from "../../../../images/pngfind.com-ninja-png-536693.png";
+import Checkbox from "../../../ResuedComponents/Checkbox/Checkbox";
+import FormChangeButtons from "../../../ResuedComponents/FormChangeButtons/FormChangeButtons";
 
 function Account() {
   return (

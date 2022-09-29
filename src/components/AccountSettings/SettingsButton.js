@@ -2,15 +2,32 @@ import GraySquare from "../ResuedComponents/GraySquare/GraySquare";
 import gsStyles from "../ResuedComponents/GraySquare/GraySquare.module.css";
 import styles from "./SettingsButton.module.css";
 
-function SettingsButton() {
+function SettingsButton(props) {
   return (
-    <div className={styles.buttonContainer}>
-      <GraySquare className={`${gsStyles.xSmall}`}>
-        <span style={{ color: "gray" }}>
-          <i class="fa-solid fa-bars"></i>
+    <button
+      name={props.name}
+      className={
+        props.selected === props.name
+          ? `${styles.buttonContainer} ${styles.selected}`
+          : styles.buttonContainer
+      }
+    >
+      <GraySquare
+        className={
+          props.selected === props.name
+            ? `${gsStyles.xSmall} ${gsStyles.selected}`
+            : gsStyles.xSmall
+        }
+      >
+        <span>
+          <i class={props.icon}></i>
         </span>
       </GraySquare>
-    </div>
+      <div>
+        <p className={styles.buttonTitle}>{props.btnTitle}</p>
+        <p className={styles.buttonDesc}>{props.btnDesc}</p>
+      </div>
+    </button>
   );
 }
 
