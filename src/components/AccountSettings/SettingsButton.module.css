@@ -3,7 +3,7 @@
   height: 72px;
   width: 100%;
   background-color: #fff;
-  border: 1px solid #edeef2;
+  border: 2px solid #edeef2;
   border-radius: 16px;
   display: flex;
 }
@@ -35,6 +35,6 @@
 }
 
 .selected {
-  border: 2px solid #4e60ff;
+  border: 2px solid var(--color-blue);
   background-color: #f3f4ff;
 }

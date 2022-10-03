@@ -27,7 +27,7 @@ function Restaurants() {
                 <h3>Burgers & Pizza</h3>
                 <div className={styles.timeAndPrice}>
                   <span style={{ color: "#C7C8D2", marginTop: "1px" }}>
-                    <i class="fa-regular fa-clock fa-2xs"></i>
+                    <i className="fa-regular fa-clock fa-2xs"></i>
                   </span>
                   <p>
                     40-60 min

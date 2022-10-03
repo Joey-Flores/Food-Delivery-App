@@ -5,7 +5,7 @@ function Menu() {
   return (
     <GraySquare className={`${styles.small}`}>
       <span style={{ color: "gray" }}>
-        <i class="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars"></i>
       </span>
     </GraySquare>
   );

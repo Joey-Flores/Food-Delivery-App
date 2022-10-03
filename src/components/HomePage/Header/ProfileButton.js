@@ -5,7 +5,7 @@ function ProfileButton() {
     <div>
       <GraySquare>
         <span style={{ color: "#4E60FF" }}>
-          <i class="fa-solid fa-user"></i>
+          <i className="fa-solid fa-user"></i>
         </span>
       </GraySquare>
     </div>

@@ -8,5 +8,5 @@
 }
 
 .logoBottom {
-  color: #4e60ff;
+  color: var(--color-blue);
 }

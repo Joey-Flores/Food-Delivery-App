@@ -14,3 +14,18 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
+
+label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+input[type="text"] {
+  border: 1px solid #c7c8d2;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+:root {
+  --color-blue: #4e60ff;
+}

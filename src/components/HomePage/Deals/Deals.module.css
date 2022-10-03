@@ -31,7 +31,7 @@
 .dealsCard h1 {
   font-size: 40px;
   font-weight: 800;
-  color: #4e60ff;
+  color: var(--color-blue);
   margin: 0;
 }
 

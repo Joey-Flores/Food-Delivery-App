@@ -1,0 +1,36 @@
+.addressCardContainer form:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.addressContainer h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.addressCardContainer h5 {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.addressCardContainer {
+  padding: 16px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #edeef2;
+  border-radius: 16px;
+}
+
+.addressCardContainer form div input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.addressCardContainer form div select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c7c8d2;
+  margin: 10px 0 20px 0;
+  width: 100%;
+}

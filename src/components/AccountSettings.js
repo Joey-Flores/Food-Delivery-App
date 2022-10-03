@@ -6,6 +6,8 @@ import styles from "./AccountSettings.module.css";
 import SettingsButton from "./AccountSettings/SettingsButton";
 import Account from "./AccountSettings/Tabs/Account/Account";
 import Address from "./AccountSettings/Tabs/Address/Address";
+import Payment from "./AccountSettings/Tabs/Payment/Payment";
+import Security from "./AccountSettings/Tabs/Security/Security";
 
 function AccountSettings() {
   const [selectedName, setSelectedName] = useState("account");
@@ -68,8 +70,10 @@ function AccountSettings() {
             />
           </div>
         </div>
-        {/* <Account /> */}
-        <Address />
+        {selectedName === "account" && <Account />}
+        {selectedName === "address" && <Address />}
+        {selectedName === "payment" && <Payment />}
+        {selectedName === "security" && <Security />}
       </Wrapper>
     </>
   );

@@ -20,7 +20,7 @@ function SettingsButton(props) {
         }
       >
         <span>
-          <i class={props.icon}></i>
+          <i className={props.icon}></i>
         </span>
       </GraySquare>
       <div>
