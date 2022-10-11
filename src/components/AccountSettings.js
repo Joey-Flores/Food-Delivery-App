@@ -8,6 +8,7 @@ import Account from "./AccountSettings/Tabs/Account/Account";
 import Address from "./AccountSettings/Tabs/Address/Address";
 import Payment from "./AccountSettings/Tabs/Payment/Payment";
 import Security from "./AccountSettings/Tabs/Security/Security";
+import Footer from "./ResuedComponents/Footer/Footer";
 
 function AccountSettings() {
   const [selectedName, setSelectedName] = useState("account");
@@ -75,6 +76,7 @@ function AccountSettings() {
         {selectedName === "payment" && <Payment />}
         {selectedName === "security" && <Security />}
       </Wrapper>
+      <Footer />
     </>
   );
 }

@@ -7,6 +7,10 @@
   color: #000;
 }
 
+.logoTop.footer {
+  color: #fff;
+}
+
 .logoBottom {
   color: var(--color-blue);
 }
