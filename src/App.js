@@ -1,27 +1,13 @@
 import "./App.css";
-import Categories from "./components/HomePage/Categories/Categories";
-import Deals from "./components/HomePage/Deals/Deals";
-import Header from "./components/Header";
-import Restaurants from "./components/HomePage/Restaurants/Restaurants";
 
 import LoginPage from "./components/LoginPage";
 import AccountSettings from "./components/AccountSettings";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <hr
-        style={{
-          height: "1px",
-          backgroundColor: "#EDEEF2",
-          border: "none",
-          margin: "0",
-        }}
-      ></hr>
-      <Deals />
-      <Categories />
-      <Restaurants /> */}
+      {/* <HomePage /> */}
       {/* <LoginPage /> */}
       <AccountSettings />
     </div>

@@ -9,13 +9,19 @@ function Footer() {
       </div>
       <div className={styles.socialsContainer}>
         <div className={styles.circle}>
-          <i className="fa-brands fa-facebook-f fa-xl"></i>
+          <span>
+            <i className="fa-brands fa-facebook-f fa-xl"></i>
+          </span>
         </div>
         <div className={styles.circle}>
-          <i className="fa-brands fa-twitter fa-xl"></i>
+          <span>
+            <i className="fa-brands fa-twitter fa-xl"></i>
+          </span>
         </div>
         <div className={styles.circle}>
-          <i className="fa-brands fa-instagram fa-xl"></i>
+          <span>
+            <i className="fa-brands fa-instagram fa-xl"></i>
+          </span>
         </div>
       </div>
       <div className={styles.infoContainer}>

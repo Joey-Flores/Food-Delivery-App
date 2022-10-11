@@ -32,7 +32,7 @@ function Categories() {
   return (
     <Wrapper className={styles.categoriesContainer}>
       {categoryOptions.map((category) => (
-        <div className={styles.categoriesCard}>
+        <div key={category.name} className={styles.categoriesCard}>
           <img style={{ height: "24px" }} src={category.img} />
           <p>{category.name}</p>
         </div>

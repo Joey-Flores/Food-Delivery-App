@@ -20,7 +20,9 @@ label {
   margin-bottom: 4px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
   border: 1px solid #c7c8d2;
   padding: 12px;
   border-radius: 8px;
